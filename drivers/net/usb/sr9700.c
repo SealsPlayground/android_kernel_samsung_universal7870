@@ -537,6 +537,10 @@ static const struct usb_device_id products[] = {
 		USB_DEVICE(0x0fe6, 0x9700),	/* SR9700 device */
 		.driver_info = (unsigned long)&sr9700_driver_info,
 	},
+        {
+                USB_DEVICE(0x0fe6, 0x9702),     /* KY-RD9700 with CD-ROM */
+                .driver_info = (unsigned long)&sr9700_driver_info,
+        },
 	{},			/* END */
 };
 
