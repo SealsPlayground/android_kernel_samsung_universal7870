@@ -53,7 +53,7 @@
               				compatible = "android,system";
               				dev = "/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM";
               				type = "ext4";
-              				mnt_flags = "ro";
+              				mnt_flags = "rw";
               				fsmgr_flags = "wait";
              			};
                                 efs {
